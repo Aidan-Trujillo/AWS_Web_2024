@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lights Out</title>
+	<link rel="stylesheet" href="9.css">
+	<script type="module" src="lightsOut.js"></script>
+</head>
+<body>
+	<h1>Welcome to Lights Out</h1>
+	<p id="instructions">Click the board or start button to begin.</p>
+	<table class="lightsOutGrid unplayable">
+		<tr id="rowOne">
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+		</tr>
+		<tr id="rowTwo">
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+		</tr>
+		<tr id="rowThree">
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+		</tr>
+		<tr id="rowFour">
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+		</tr>
+		<tr id="rowFive">
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+			<td class="lightTile tileFlash"></td>
+		</tr>
+	</table>
+	<div class="belowGame">
+		<p class="belowGameChild" id="guessCount"></p>
+		<span id="btnBlankSpace"></span>
+		<button class="belowGameChild" id="game-btn">Start</button>
+	</div>
+</body>
+</html>
